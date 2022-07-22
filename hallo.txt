@@ -1,0 +1,355 @@
+digraph tree {
+edge [arrowhead=none]
+tree_0x7f08f54681b8 [label="document", tooltip="range: 0 - 47
+state: 0
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0129750 [label="_value", tooltip="range: 0 - 44
+state: 1
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0056160 [label="object", tooltip="range: 0 - 44
+state: 1
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012c2f0 [label="{", shape=plaintext, tooltip="range: 0 - 2
+state: 1
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0056160 -> tree_0x7f08e012c2f0 [tooltip=0]
+tree_0x7f08e012c2f8 [label="pair", tooltip="range: 2 - 19
+state: 6
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01298c0 [label="string", tooltip="range: 2 - 13
+state: 6
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0129aa0 [label="\"", shape=plaintext, tooltip="range: 2 - 8
+state: 6
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01298c0 -> tree_0x7f08e0129aa0 [tooltip=0]
+tree_0x7f08e0129aa8 [label="string_content", tooltip="range: 8 - 12
+state: 7
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a6e40 [label="string_content_token1", shape=plaintext, tooltip="range: 8 - 12
+state: 7
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0129aa8 -> tree_0x7f08e01a6e40 [tooltip=0]
+tree_0x7f08e01298c0 -> tree_0x7f08e0129aa8 [tooltip=1]
+tree_0x7f08e0129ab0 [label="\"", shape=plaintext, tooltip="range: 12 - 13
+state: 11
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01298c0 -> tree_0x7f08e0129ab0 [tooltip=2]
+tree_0x7f08e012c2f8 -> tree_0x7f08e01298c0 [tooltip=0]
+tree_0x7f08e01298c8 [label=":", shape=plaintext, tooltip="range: 13 - 14
+state: 8
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012c2f8 -> tree_0x7f08e01298c8 [tooltip=1]
+tree_0x7f08e01298d0 [label="_value", tooltip="range: 14 - 19
+state: 4
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012c6d0 [label="true", shape=plaintext, tooltip="range: 14 - 19
+state: 4
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01298d0 -> tree_0x7f08e012c6d0 [tooltip=0]
+tree_0x7f08e012c2f8 -> tree_0x7f08e01298d0 [tooltip=2]
+tree_0x7f08e0056160 -> tree_0x7f08e012c2f8 [tooltip=1]
+tree_0x7f08e012c300 [label="object_repeat1", tooltip="range: 19 - 42
+state: 20
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e00560f0 [label=",", shape=plaintext, tooltip="range: 19 - 20
+state: 12
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012c300 -> tree_0x7f08e00560f0 [tooltip=0]
+tree_0x7f08e00560f8 [label="pair", tooltip="range: 20 - 42
+state: 13
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a78f0 [label="string", tooltip="range: 20 - 31
+state: 13
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0018520 [label="\"", shape=plaintext, tooltip="range: 20 - 26
+state: 13
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a78f0 -> tree_0x7f08e0018520 [tooltip=0]
+tree_0x7f08e0018528 [label="string_content", tooltip="range: 26 - 30
+state: 7
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012a470 [label="string_content_token1", shape=plaintext, tooltip="range: 26 - 30
+state: 7
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0018528 -> tree_0x7f08e012a470 [tooltip=0]
+tree_0x7f08e01a78f0 -> tree_0x7f08e0018528 [tooltip=1]
+tree_0x7f08e0018530 [label="\"", shape=plaintext, tooltip="range: 30 - 31
+state: 11
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a78f0 -> tree_0x7f08e0018530 [tooltip=2]
+tree_0x7f08e00560f8 -> tree_0x7f08e01a78f0 [tooltip=0]
+tree_0x7f08e01a78f8 [label=":", shape=plaintext, tooltip="range: 31 - 32
+state: 8
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e00560f8 -> tree_0x7f08e01a78f8 [tooltip=1]
+tree_0x7f08e01a7900 [label="_value", tooltip="range: 32 - 42
+state: 4
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a7890 [label="array", tooltip="range: 32 - 42
+state: 4
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012c4c0 [label="[", shape=plaintext, tooltip="range: 32 - 34
+state: 4
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a7890 -> tree_0x7f08e012c4c0 [tooltip=0]
+tree_0x7f08e012c4c8 [label="_value", tooltip="range: 34 - 35
+state: 2
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012a360 [label="number", shape=plaintext, tooltip="range: 34 - 35
+state: 2
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012c4c8 -> tree_0x7f08e012a360 [tooltip=0]
+tree_0x7f08e01a7890 -> tree_0x7f08e012c4c8 [tooltip=1]
+tree_0x7f08e012c4d0 [label="array_repeat1", tooltip="range: 35 - 41
+state: 21
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 2
+lookahead-bytes: 1"]
+tree_0x7f08e00551a0 [label="array_repeat1", tooltip="range: 35 - 39
+state: 65535
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 1
+lookahead-bytes: 1"]
+tree_0x7f08e0120900 [label="array_repeat1", tooltip="range: 35 - 37
+state: 21
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e00125e0 [label=",", shape=plaintext, tooltip="range: 35 - 36
+state: 12
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0120900 -> tree_0x7f08e00125e0 [tooltip=0]
+tree_0x7f08e00125e8 [label="_value", tooltip="range: 36 - 37
+state: 3
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0129b70 [label="number", shape=plaintext, tooltip="range: 36 - 37
+state: 3
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e00125e8 -> tree_0x7f08e0129b70 [tooltip=0]
+tree_0x7f08e0120900 -> tree_0x7f08e00125e8 [tooltip=1]
+tree_0x7f08e00551a0 -> tree_0x7f08e0120900 [tooltip=0]
+tree_0x7f08e0120908 [label="array_repeat1", tooltip="range: 37 - 39
+state: 24
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0055260 [label=",", shape=plaintext, tooltip="range: 37 - 38
+state: 12
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0120908 -> tree_0x7f08e0055260 [tooltip=0]
+tree_0x7f08e0055268 [label="_value", tooltip="range: 38 - 39
+state: 3
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01296f0 [label="number", shape=plaintext, tooltip="range: 38 - 39
+state: 3
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0055268 -> tree_0x7f08e01296f0 [tooltip=0]
+tree_0x7f08e0120908 -> tree_0x7f08e0055268 [tooltip=1]
+tree_0x7f08e00551a0 -> tree_0x7f08e0120908 [tooltip=1]
+tree_0x7f08e012c4d0 -> tree_0x7f08e00551a0 [tooltip=0]
+tree_0x7f08e00551a8 [label="array_repeat1", tooltip="range: 39 - 41
+state: 24
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012a3c0 [label=",", shape=plaintext, tooltip="range: 39 - 40
+state: 12
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e00551a8 -> tree_0x7f08e012a3c0 [tooltip=0]
+tree_0x7f08e012a3c8 [label="_value", tooltip="range: 40 - 41
+state: 3
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0008630 [label="number", shape=plaintext, tooltip="range: 40 - 41
+state: 3
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e012a3c8 -> tree_0x7f08e0008630 [tooltip=0]
+tree_0x7f08e00551a8 -> tree_0x7f08e012a3c8 [tooltip=1]
+tree_0x7f08e012c4d0 -> tree_0x7f08e00551a8 [tooltip=1]
+tree_0x7f08e01a7890 -> tree_0x7f08e012c4d0 [tooltip=2]
+tree_0x7f08e012c4d8 [label="]", shape=plaintext, tooltip="range: 41 - 42
+state: 12
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e01a7890 -> tree_0x7f08e012c4d8 [tooltip=3]
+tree_0x7f08e01a7900 -> tree_0x7f08e01a7890 [tooltip=0]
+tree_0x7f08e00560f8 -> tree_0x7f08e01a7900 [tooltip=2]
+tree_0x7f08e012c300 -> tree_0x7f08e00560f8 [tooltip=1]
+tree_0x7f08e0056160 -> tree_0x7f08e012c300 [tooltip=2]
+tree_0x7f08e012c308 [label="}", shape=plaintext, tooltip="range: 42 - 44
+state: 15
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08e0056160 -> tree_0x7f08e012c308 [tooltip=3]
+tree_0x7f08e0129750 -> tree_0x7f08e0056160 [tooltip=0]
+tree_0x7f08f54681b8 -> tree_0x7f08e0129750 [tooltip=0]
+tree_0x7f08e0129758 [label="end", shape=plaintext, fontcolor=gray, tooltip="range: 44 - 47
+state: 18
+error-cost: 0
+has-changes: 0
+depends-on-column: 0
+repeat-depth: 0
+lookahead-bytes: 1"]
+tree_0x7f08f54681b8 -> tree_0x7f08e0129758 [tooltip=1]
+}
+
